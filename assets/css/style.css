@@ -130,3 +130,36 @@ footer {
 footer h2 {
   font-size: 20px;
 }
+@media only screen and (max-width: 1200px) {
+  header nav {
+    font-size: 15px;
+    padding-right: 5px;
+  }
+  .service {
+    height: 500px;
+  }
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  header {
+    height: 300px;
+  }
+  header li {
+    display: block;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .service {
+    height: 600px;
+  }
+  .benefits {
+    width: 100%;
+    margin: 15px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
